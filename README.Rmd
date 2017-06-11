@@ -1,0 +1,23 @@
+---
+title: "README"
+output: html_document
+---
+
+
+
+#**This script does the following steps:**
+###-Creates a new folder CourseraWork on Drive C:
+###-Sets this as a working directory
+###-Downloads the data into it
+###-Calls all required libraries: Dplyr, Tidyr and Data.table
+###-Opens the data files, merges content
+###-Renames headers
+###-Calculates means and averages
+###-Reformats text strings for easier understanding
+###-Saves final file in Tidy_Data.txt
+#   
+#   
+#**To run this script, please download Course Project Srancsik.R file and run in R Studio. The output of the script is: Tidy_Data.txt**
+#  
+#**Further information can be found in the R script about steps applied and in the CodeBook.md, where interlinks of variables are explained**
+#

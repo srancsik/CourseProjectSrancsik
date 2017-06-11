@@ -1,0 +1,23 @@
+---
+title: "CodeBook.md"
+output: html_document
+---
+
+###The most important variable is **Table**, it is used throughout the whole process to manipulate/reshape the data
+
+###In order to do so, various variables are used to store and temporarily use data
+###For reading the initial data tables:
+####**SourceFilePath**: Defines where the initial data is located at
+####**SubjectTrain,SubjectTest,ActivityTrain, ActivityTest,Train,Test** to open up and store data
+
+###In merging:
+####**Subject**: to merge Training and Test subjects
+####**Activity**: to merge Training and Test activities
+
+###In labeling
+####**Features** stores the content of features.txt
+####**Labels** stores the content of Activity Labels
+####**SubjectAndActivity** binds them together and later is being binded to Table
+
+###In Meaning and standard deviation calculation
+####**MeanStd** is used to store the calculated values temporarily
